@@ -1,0 +1,442 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #252525;
+}
+
+a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+.btn {
+  text-transform: uppercase;
+  margin: 35px auto;
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,.29);
+  cursor: pointer;
+  background: #fff;
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+}
+
+.btn:hover {
+  border-color: rgba(0,0,0,.5);
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: 0;
+  font-weight: 700;
+  border-width: 2px;
+}
+
+.center {
+  text-align: center;
+}
+.center-black {
+  color: black;
+}
+.active {
+  font-weight: bold;
+  color:green
+}
+
+.nav{
+   /* border-top:1px solid rgb(255,0,0);*/
+   height:35px;
+   border-bottom:2px solid rgb(123,123,0);  
+   padding-bottom:15px;
+  
+}
+.nav a{
+   /* border-top:1px solid rgb(255,0,0);
+      border-bottom:1px solid rgb(255,0,0);  
+      padding-bottom:1px;
+  */
+   height:35px;
+   color:blue;  
+}
+
+.nav a:hover {
+ /* font-weight: bold;*/
+  color:hotpink
+}
+.nav a:active
+{
+  font-weight: bold;
+  color:green
+}
+.nav ul {
+  paddingt-left: 10px;
+  paddingt-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.nav li:first-child {
+  padding-left: 10;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+.nav-left{
+   float: left;
+}
+.nav-right{
+   float: right; 
+  
+}
+
+.avatar {
+  height: 80px;
+  border-radius: 25px;
+  vertical-align: baseline;
+  margin: 2px;
+}
+.avatar-small {
+  height: 18px;
+  border-radius: 18px;
+  margin: 0px;
+}
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.login-box{
+   border:1px solid rgb(123,123,0);  
+   display: inline-block;
+   color:#3CAEA3;
+   width: 480px;
+   height:436px;  
+  
+   text-align: center;
+ }
+
+.login-button {
+  text-transform: uppercase;
+  margin: 5px auto;
+  height:30px;
+   line-height:30px;
+  border: 1px solid rgb(123,123,0);  
+  cursor: pointer;
+  background: #3CAEA3;;
+ 
+  color: white;
+ 
+  width:90% !important;
+  position: relative;
+}
+
+.login-button:hover {
+  border-color: rgba(0,0,0,.5);
+  text-decoration: none;
+}
+
+.login-button:focus {
+  outline: 0;
+  font-weight: 700;
+  border-width: 2px;
+}
+
+.login-caption{
+   border-bottom: 1px solid rgb(123,123,0);  
+   height: 75px;
+   /*background-color:rgb(210,210,210);*/
+}
+.login-form {
+ 
+  width: 100%;
+  max-width: 590px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-img {
+   display: block;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-left: auto;
+   margin-right: auto;
+ 
+ }
+
+.user-select {
+  border-radius: 1px;
+  border: 1px solid #dad7d7;
+  padding: 2px;
+  font-size: 15px;
+  height: 30px;
+  width:90% !important;
+}
+
+
+
+option:first {
+    color: #999;
+}
+
+.question-box{
+   border:1px solid rgb(123,123,0);  
+   display: inline-block;
+   color:#3CAEA3;
+   width:90%;
+   /*height:436px;  
+   border-radius: 10px;*/
+   text-align: center;
+   margin: 1px auto;
+   background-color: #ebe9e7;
+ }
+
+
+.question-header {
+  color: #eee;
+}
+
+.rTable {
+  	display: table;
+  	width: 100%;
+   
+}
+.rTableRow {
+  	display: table-row;
+  	text-align: center;
+    background-color: white;
+}
+.text-left{
+  text-align: left;
+  margin-left:20px;
+  margin-bottom:10px;
+  margin-top:15px;
+}
+.text-left-indent{
+  text-align: left;
+  color:black;
+  margin-left:60px;
+  margin-bottom:10px;
+}
+.text-right{
+  text-align: right;
+  color:black;
+  margin-left:350px;
+  margin-bottom:10px;
+}
+.score{
+  text-align: left;
+  margin-left:20px;
+  margin-bottom:10px;
+  margin-top:15px;
+}
+.score-total{
+  text-align: left;
+  margin-left:20px;
+  margin-bottom:10px;
+  margin-top:15px;
+  color:red;
+  font-weight:bold;
+  
+}
+.question-text-left-indent{
+  text-align: left;
+  color:black;
+  margin-left:20px;
+  margin-yop:10px;
+}
+.question-text-input {
+  border: 1px solid #eee; 
+  width: 90%;
+  margin: 5px auto;  
+  position: relative;
+}
+.login-button2 {
+  text-transform: uppercase;
+  margin: 5px auto;
+  height:30px;
+  line-height:30px;
+  border: 1px solid rgb(123,123,0);  
+  cursor: pointer;
+  background: #3CAEA3;;
+ 
+  color: white;
+ 
+  width:90% !important;
+  position: relative;
+}
+.rank {
+  height: 80px;
+  border-radius: 25px;
+ 
+  vertical-align: baseline;
+  margin: 2px;
+}
+
+
+.rank-label {
+  font-size: 100%;
+}
+
+.rank-font {
+  font-size: 150%;
+  color:green;
+  font-weight:bold;
+}
+.q-vote{
+  text-align: right;
+  color:red;
+  font-weight:bold;
+  margin-left:250px;
+  margin-bottom:10px;
+
+}
+.q-not-vote{
+  text-align: right;
+  color:black;
+  margin-left:250px;
+  margin-bottom:10px;
+}
+
+.rTableHeading {
+  	display: table-header-group;
+  	background-color: #ddd;
+}
+.rTableCell, .rTableHead {
+  	display: table-cell;
+  	padding: 3px 8px;
+  	border: 1px solid #999999;
+}
+.rTableCell.rowspanned {
+ 
+  top: 0px;
+  bottom: 0px;
+  width:130px;
+}
+.rTableHeading {
+  	display: table-header-group;
+  	background-color: #ddd;
+  	font-weight: bold;
+}
+.rTableFoot {
+  	display: table-footer-group;
+  	font-weight: bold;
+  	background-color: #ddd;
+}
+.rTableBody {
+  	display: table-row-group;
+}
+
+
+
+
+
+
+
+
+.tweet {
+  width: 100%;
+  max-width: 590px;
+  padding: 10px;
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid #dad7d7;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.tweet-info {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hacky but less typing in the video */
+.tweet-info > div > span:first-child {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.tweet-info > div > span:nth-child(2) {
+  color: #969696;
+  font-size: 16px;
+}
+.tweet-info > div > div {
+  color: #969696;
+  font-size: 15px;
+}
+.tweet-info > div > p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.tweet-icons {
+  display: flex;
+  align-items: center;
+}
+.tweet-icons > span {
+  color: #969696;
+  margin: 0 15px 0 5px;
+  font-size: 18px !important;
+}
+.tweet-icon {
+  font-size: 27px;
+  color: #697784;
+}
+.tweet-icon:hover {
+  color: #00b5d6;
+  cursor: pointer;
+}
+.replying-to {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  color: #969696;
+  cursor: pointer;
+}
+
+.heart-button {
+  background: transparent;
+  border: none;
+}
+
+.new-tweet {
+  width: 100%;
+  max-width: 590px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  border-radius: 4px;
+  border: 1px solid #dad7d7;
+  padding: 10px;
+  font-size: 15px;
+  height: 100px;
+}
+
+.tweet-length {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #C3392A;
+}
